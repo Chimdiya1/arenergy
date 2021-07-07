@@ -1,3 +1,5 @@
+For Alpha, visit the /alpha route
+For Gamma, visit the /gamma route
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
