@@ -1,24 +1,11 @@
-import React, { createContext, useEffect, useState } from "react";
-import {
-  Table,
-  Thead,
-  Tbody,
-  Input,
-  Spinner,
-  Tr,
-  Th,
-  Td,
-} from "@chakra-ui/react";
+import React, { useEffect, useState } from "react";
 import "./gamma.css";
+import { Table, Thead, Tbody, Spinner, Tr, Th, Td } from "@chakra-ui/react";
 const GammaPage = () => {
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [competitions, setCompetitions] = useState([]);
-  const [searchResults, setSearchResults] = React.useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
-  const handleChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
+
   useEffect(function loadProducts() {
     // api.getLeaders().then((res) => {
     //   setIsLoading(true);
