@@ -1,0 +1,21 @@
+.profile-page {
+  padding: 2rem;
+  position: relative;
+}
+.profile-page h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+.profile-page div {
+  margin: auto;
+  text-align: center;
+}
+.profile-page .spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+}

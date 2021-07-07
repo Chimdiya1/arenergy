@@ -1,0 +1,17 @@
+.gamma-page {
+  padding: 2rem;
+  position: relative;
+}
+.gamma-page h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+.gamma-page .spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+}
